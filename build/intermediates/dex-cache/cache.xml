@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="/home/jaka/.android/build-cache/4d797a24c21d1b8cb96a38858f1adf19dae6b34f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_438672a9bb1040d2774d0ba955091ace4f936fa8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="abe786bfd4d8d1c7db8900bfb8517052855c5c1f">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c3f230b0bc2bfd86e0caf351e92e46192822297/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/jaka/.android/build-cache/600c1c20b11e0e60daa0349e7e5a10f7c586d108/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="47cfb79fe38f485b30779dcc1d6b14ee2f0090f2">
-        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c3f230b0bc2bfd86e0caf351e92e46192822297/classes.dex" />
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e1d26e1d08d97735e7cffb465373f39c032d4acd/classes.dex" />
     </item>
 
 </items>
