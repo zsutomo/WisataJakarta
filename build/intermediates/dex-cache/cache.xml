@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/jaka/.android/build-cache/8c8b10203b07dfc9735b8679c524ada045964da3/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="c830690b1010404f708f7e84881f8ff8922d147b">
-        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c3f230b0bc2bfd86e0caf351e92e46192822297/classes.dex" />
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e55791a85317a7a3cc0a11daab62a4857e72a188/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +18,15 @@
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5d08a89d08c28d30a517be312581da3a902d4c2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="387191c1e309cdd8769034a763fc3977eb0aee63">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c3f230b0bc2bfd86e0caf351e92e46192822297/classes.dex" />
     </item>
 
 </items>

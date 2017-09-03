@@ -1,6 +1,7 @@
 package com.skripsi.zulfallah.wisatajakarta;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -103,6 +104,8 @@ public class WisataFragment extends Fragment {
                 @Override
                 public void onClick(View view) {
                     Toast.makeText(getActivity(), "Gue Ganteng", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getActivity(), MapsActivity.class);
+                    startActivity(intent);
                 }
             });
 

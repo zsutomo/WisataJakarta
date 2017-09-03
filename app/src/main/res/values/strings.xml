@@ -5,4 +5,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="developer">Zulfallah Noor Annas \n zulfallah.94@gmail.com \n Universitas Gunadarma \n 2016</string>
     <string name="tentang">Aplikasi ini diperuntukkan untuk \n wisatawan baik dari dalam maupun dari \n luar negerei yang ingin berkunjung ke area \n wisata yang ada di Propinsi DKI Jakarta.</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
