@@ -50,7 +50,7 @@
                 app:documentView_insetPaddingLeft="10dp"
                 app:documentView_insetPaddingRight="10dp"
                 app:documentView_textColor="@android:color/black"
-                app:documentView_textSize="18sp"/>
+                app:documentView_textSize="18sp" />
 
             <TextView
                 android:layout_marginTop="10dp"
