@@ -57,6 +57,15 @@
                         android:textColor="#fff"
                         android:textStyle="bold"/>
 
+                    <TextView
+                        android:id="@+id/koordinat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="10sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"/>
+
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>

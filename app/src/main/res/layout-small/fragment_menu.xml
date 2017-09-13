@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.skripsi.zulfallah.wisatajakarta.MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <include layout="@layout/toolbar_home"/>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:orientation="horizontal"
+                android:id="@+id/informasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/informasiwisata"
+                android:background="@drawable/circle"
+                android:text="INFORMASI WISATA"
+                android:textColor="#FFF"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+
+                android:layout_gravity="center_horizontal"
+                android:onClick="btn_klikInformasi"/>
+
+            <Button
+                android:id="@+id/bantuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle"
+                android:drawableTop="@mipmap/bantuan"
+                android:layout_marginTop="5dp"
+                android:text="BANTUAN"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:onClick="btn_klikBantuan"/>
+
+            <Button
+                android:id="@+id/tentang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle"
+                android:drawableTop="@mipmap/tentang"
+                android:layout_marginTop="5dp"
+                android:text="TENTANG"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:onClick="btn_klikTentang"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
