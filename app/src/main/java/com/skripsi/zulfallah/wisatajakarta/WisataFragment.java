@@ -30,6 +30,8 @@ public class WisataFragment extends Fragment {
     String namaWisata[] = {"Dunia Fantasi", "Kebun Binatang Ragunan","Museum Fatahillah", "Monumen Nasional", "Taman Mini Indonesia Indah"};
     String haribuka[] = {"Senin-Minggu & Libur Nasional", "Selasa-Minggu", "Selasa-Minggu", "Senin-Minggu", "Senin-Minggu"};
     String jambuka[] = {"10:00 - 20:00", "06:00 - 16:00", "09:00 - 15:00", "09:00-16:00", "07:00 - 22:00"};
+    double latitude[] = {-6.123741,-6.312382, -6.134256, -6.175254, -6.302444};
+    double longitude[] = {106.831909, 106.820577, 106.813123, 106.827582,106.895258};
     int Images[] = {R.mipmap.dufan, R.mipmap.ragunan, R.mipmap.fatahillah, R.mipmap.monas2, R.mipmap.tmii};
 
     @Override
@@ -94,18 +96,27 @@ public class WisataFragment extends Fragment {
         }
 
         @Override
-        public void onBindViewHolder(MyViewHolder holder, int position) {
+        public void onBindViewHolder(MyViewHolder holder, final int position) {
             holder.namaWisata.setText(list.get(position).getNama());
             holder.tanggalBuka.setText(list.get(position).getTanggal());
             holder.waktuBuka.setText(list.get(position).getJam());
+            holder.koordinat.setText(list.get(position).getLatitude()+", " + list.get(position).getLongitude());
             holder.coverImage.setImageResource(list.get(position).getImageResourceID());
             holder.coverImage.setTag(list.get(position).getImageResourceID());
             holder.cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(getActivity(), "Gue Ganteng", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getActivity(), MapsActivity.class);
-                    startActivity(intent);
+
+                    Bundle bundle = new Bundle();
+
+                    bundle.putDouble("Latitude_tujuan", list.get(position).getLatitude());
+                    bundle.putDouble("Longitude_tujuan", list.get(position).getLongitude());
+
+                    startActivity(new Intent(getActivity(), MapsActivity.class).putExtras(bundle));
+//                    Intent intent = new Intent(getActivity(), MapsActivity.class);
+//                    intent.putExtra("latitude", latitude.toString());
+//                    intent.putExtra("longitude", longitude.toString());
+//                    startActivity(intent);
                 }
             });
 
@@ -116,6 +127,7 @@ public class WisataFragment extends Fragment {
             TextView namaWisata;
             TextView tanggalBuka;
             TextView waktuBuka;
+            TextView koordinat;
             ImageView coverImage;
             CardView cardView;
 
@@ -127,6 +139,7 @@ public class WisataFragment extends Fragment {
                 namaWisata =  v.findViewById(R.id.namaWisata);
                 tanggalBuka =  v.findViewById(R.id.tgl_buka);
                 waktuBuka = v.findViewById(R.id.waktu_buka);
+                koordinat = v.findViewById(R.id.koordinat);
                 cardView = v.findViewById(R.id.card_view);
             }
         }
@@ -147,6 +160,8 @@ public class WisataFragment extends Fragment {
             item.setNama(namaWisata[i]);
             item.setTanggal(haribuka[i]);
             item.setJam(jambuka[i]);
+            item.setLatitude(latitude[i]);
+            item.setLongitude(longitude[i]);
             item.setImageResourceID(Images[i]);
             listItems.add(item);
         }

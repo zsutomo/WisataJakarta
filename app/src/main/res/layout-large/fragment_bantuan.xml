@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.skripsi.zulfallah.wisatajakarta.BantuanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_bantuan"/>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@mipmap/logo"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cara Menggunakan Aplikasi"
+                android:textStyle="bold"
+                android:textSize="45dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colortext"/>
+
+            <com.bluejamesbond.text.DocumentView
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView_bantuan"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:documentView_textAlignment="justified"
+                app:documentView_textStyle="bold"
+                app:documentView_insetPaddingBottom="5dp"
+                app:documentView_insetPaddingLeft="10dp"
+                app:documentView_insetPaddingRight="10dp"
+                app:documentView_textColor="@android:color/black"
+                app:documentView_textSize="35sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="@string/developer"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

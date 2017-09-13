@@ -8,6 +8,8 @@
     <dimen name="icon_height">60dip</dimen>
     <dimen name="icon_padding">8dp</dimen>
     <dimen name="card_height">200dip</dimen>
+    <dimen name="card_height_large">300dip</dimen>
+    <dimen name="card_height_xlarge">400dip</dimen>
     <dimen name="text_size">18sp</dimen>
 
 </resources>

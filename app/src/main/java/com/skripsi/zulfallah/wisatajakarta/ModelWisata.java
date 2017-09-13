@@ -11,6 +11,24 @@ public class ModelWisata {
     String tanggal;
     String jam;
     int ImageResourceID;
+    double latitude;
+    double longitude;
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
 
     public int getImageResourceID() {
         return ImageResourceID;

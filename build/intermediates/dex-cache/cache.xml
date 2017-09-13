@@ -2,13 +2,85 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/jaka/.android/build-cache/8c8b10203b07dfc9735b8679c524ada045964da3/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/f1081a0def8753d660ce3064efa3c2b28792bc37/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
-        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e55791a85317a7a3cc0a11daab62a4857e72a188/classes.dex" />
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_818c543f7b9307d649b9ed8d649c56120b33cb57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/0a7e5475bfda57fbbfab8687ca514c5312477f45/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_9302d85dec8d311d9887a4463caf5d4d55f127b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_cdeecbfeed050790d75e1ce6466abf926dbd3f36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.1_18920670e2948c38086d0c59d8104845299dd5c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_e04a5768218a9d36f4fffbf00d97b36396b74ac9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/959fc554d81fa1750c171efab3a9748ca0c982c5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_dd232b70264db5b50e6ad776d268c2f219dbc69b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/698fb15ed09414a211723cfe803623c0261013f5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_37440f397fec6354ade70539fd5e90da5fbff1c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/6a4fd51934e65a110858bd329b44a1c5ce9e0c5d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_13d53eb45eb59a84a19077d8b9ace97f8591a21e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/a2ec1e2bd0e7a93829c3c762f17394dde2144520/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_3046f2c38cfce9c78fb58311fb3280c5b274125b.jar" />
     </item>
     <item
         is-multidex="true"
@@ -20,13 +92,202 @@
         <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5d08a89d08c28d30a517be312581da3a902d4c2e/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/319d9f119199c378e11f598c63e98222f0e8aa12/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d720627a0fdd516f238c3acdfac6043e7717b742">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_1fd9ae8392eb2001176326ad0a448aa78d9dbf08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/f0b2a8ae6119d8d3b59be480914b46736757f24c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_c8702773e0a7ab2d5a2087ec8c1fd659182cd240.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/gson-2.7_7f92b01b55682f4bdd4d56e2afe4e0d55b5e73b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2_6df502bfc37bb9f150caef7c3e5a2aa52407fdbe.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="387191c1e309cdd8769034a763fc3977eb0aee63">
+        sha1="de2900e22831aa24fc2f8d6f2ab1aa0104aedd0d">
         <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c3f230b0bc2bfd86e0caf351e92e46192822297/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/946be5c52bd5707a18a5738c779687e4b314f0ed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_f910025cf88ec8e2c8192724a222f8f982222365.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/okio-1.9.0_7cc3bba02df0743af71c24a91d690ac601248357.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/c0e2973647f9a0e8fa5163a67360fff8a6d9f69e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_9eeda779eccb95a976615b6111a107ec1c6a83e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/a29ec1aa3777525a236923e20d7710a6c9c8b981/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_cd27321cd516ee314236055f0343e60f988e206d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_2b95065624ee4f9942cb45a7bd8c31e8c3af41ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_00cc3ce6acfd6e1a8b99574586d8c28424d2756d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/ebef1a92533480d5fab2ed019384f57ad847255e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_69f4667ec2f4e5ef35087284feb6adfcde21d774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_226505a406a2a2c507d8bb1835d089175eddfc94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/06ed1d136b925a77496bbd31f88c82d7d71e9dce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a298f4b67b4898200c47cfd4f5bf2f221c657766">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_05f8de1b23e1b8596f5a75878c10d7b13937319d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/5149331d4224dd2bc61977565760f494e6a6f887/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_ea6f92a6f68d293ef7e6d486ebdc51f6ebdce5b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/14ca28a70a8044a4b2cdf5e15a87f98c6569d34c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_c760d895ad6eb38d7e5b532bcce81a2266a75bc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_fc2e3edae49fe847a57bae9c50c7aa3cad32d0cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/af18aa9761db6a7e8ad481a2b978a832a82727e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_8324accf3ebd6ff74b9a5b9ecb7a1a1e449df426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/8c8b10203b07dfc9735b8679c524ada045964da3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_e55791a85317a7a3cc0a11daab62a4857e72a188.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/4f056a0de4e3ff3b58894e66ebf4d266d84e25b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_50a9985aece566a1aabcec774e6886bbe9a1e6c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.android/build-cache/6634c28f6a567d2c7167dce8afd64f9cde697abc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/classes_1be612cef4890586b286561ca1b8c3c31b76e58b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jaka/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/home/jaka/Documents/Android Studio/WisataJakarta/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2_e4fcd71cacacd2bf8092e70c02677dd79a4aace8.jar" />
     </item>
 
 </items>
