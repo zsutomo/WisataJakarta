@@ -67,6 +67,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_maps);
 
         MarkerPoints = new ArrayList<>();
@@ -110,7 +111,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            checkLocationPermission();
+        }
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             if (ContextCompat.checkSelfPermission(this,
                     android.Manifest.permission.ACCESS_FINE_LOCATION)
@@ -170,7 +173,31 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 "Stasiun Tanjung Priok",
                 "Stasiun Tebet",
                 "Stasiun Universitas Pancasila",
-                "Stasiun Pondok Jati"
+                "Stasiun Pondok Jati",
+                "Bekasi",
+                "Kranji",
+                "Cakung",
+                "Klender Baru",
+                "Buaran",
+                "Klender",
+                "Cipinang",
+                "Manggarai",
+                "Tebet",
+                "Cawang",
+                "Duren Kalibata",
+                "Pasar Minggu Baru",
+                "Pasar Minggu",
+                "Tanjung Barat",
+                "Lenteng Agung",
+                "Universitas Pancasila",
+                "Universitas Indonesia",
+                "Pondok Cina",
+                "Depok Baru",
+                "Depok",
+                "Citayam",
+                "Bojong Gede",
+                "Cilebut",
+                "Bogor"
         };
         double[] latitude_stasiun = {
                 -6.1280,
@@ -219,7 +246,31 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 -6.1107,
                 -6.2261,
                 -6.3389,
-                -6.2091
+                -6.2091,
+                -6.235714,
+                -6.224312,
+                -6.219287,
+                -6.217625,
+                -6.216309,
+                -6.213294,
+                -6.214099,
+                -6.209985,
+                -6.226081,
+                -6.242681,
+                -6.255369,
+                -6.262752,
+                -6.283708,
+                -6.307826,
+                -6.330651,
+                -6.338589,
+                -6.360694,
+                -6.368823,
+                -6.390956,
+                -6.404786,
+                -6.448522,
+                -6.493006,
+                -6.530486,
+                -6.595575
         };
         double[] longitude_stasiun = {
                 106.8451,
@@ -268,7 +319,31 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 106.8815,
                 106.8583,
                 106.8344,
-                106.8623
+                106.8623,
+                107.003144,
+                106.979485,
+                106.952282,
+                106.939593,
+                106.928423,
+                106.899247,
+                106.885467,
+                106.850720,
+                106.858387,
+                106.859161,
+                106.855380,
+                106.851838,
+                106.844216,
+                106.838828,
+                106.834977,
+                106.834393,
+                106.831730,
+                106.832187,
+                106.821655,
+                106.817258,
+                106.802501,
+                106.794895,
+                106.800549,
+                106.790408
         };
         final MarkerOptions[] markerOptions = {new MarkerOptions()};
         final LatLng[] latLng_stasiun = new LatLng[1];
@@ -621,4 +696,5 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
+
 }
